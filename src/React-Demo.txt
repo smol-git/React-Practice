@@ -1,0 +1,73 @@
+//useState
+  // const [incrementValue, setIncrementValue] = useState(0)
+  // const [decrementValue, setDecrementValue] = useState(100)
+  // const changeElement = useRef()     // useRef
+
+  // const cardData = [
+  //   { number: "1", name: "sohail" },
+  //   { number: "2", name: "ahmed" }]
+
+
+  // const handleClickIncrement = () => {
+  //   setIncrementValue(incrementValue + 1)
+
+  //   // useRef in handler()
+  //   console.log(changeElement);
+  //   changeElement.current.focus()
+  //   changeElement.current.style.backgroundColor = "red"
+  //   changeElement.current.style.color = 'white'
+  // }
+  // const handleClickDecrement = () => {
+  //   if (incrementValue > 0)
+  //     setDecrementValue(decrementValue - 1)
+  //   changeElement.current.focus()
+  //   changeElement.current.style.backgroundColor = "yellow"
+  //   changeElement.current.style.color = 'black'
+  // }
+
+  // const handleClickDecrement = () => {
+  //   if(incrementValue>0)
+  //   setIncrementValue(incrementValue - 1);
+  // }
+
+
+  //useEffect
+  // main thing to remember in useEffect: componentDidMount ,componentDidUpdate ,componentDidUnMount
+
+  // useEffect(() => {
+  //   console.log('Mount Component')  //componentDidMount
+
+  //   return () => {
+  //     console.log('UnMount Component')  //componentDidUnMount
+  //   }
+  // }, [incrementValue, decrementValue])    //componentDidUpdate
+
+
+
+  // return (                      //return a JSX element
+  //   <>
+  //     <div className="App">
+  //       <header className="App-header">
+  //         <img src={logo} className="App-logo" alt="logo" />
+  //         <h1>Counter</h1>
+  //         <h2>Count:{incrementValue} </h2>
+
+  //         {/* input used with ref of useRef */}
+  //         <input type='text' ref={changeElement} />
+
+  //         <h2>Count:{decrementValue} </h2>
+  //         <div className='buttons'>
+  //           <button onClick={handleClickIncrement}>Increment</button>
+
+  //           <button onClick={handleClickDecrement}>Decrement</button>
+  //         </div>
+  //         <Card cardData={cardData[0]} />
+  //         <MyListComponent />
+  //       </header>
+
+  //     </div>
+
+
+  //   </>
+
+  // );
